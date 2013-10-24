@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7753B9118189A6C00052E51 /* MasterGeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7753B9018189A6C00052E51 /* MasterGeoViewController.m */; };
+		B7753B941819717600052E51 /* SearchGeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7753B931819717600052E51 /* SearchGeoViewController.m */; };
+		B7753B97181983EF00052E51 /* GeoPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B7753B96181983EF00052E51 /* GeoPointAnnotation.m */; };
+		B7753B9D1819893200052E51 /* GeoQueryAnnotaion.m in Sources */ = {isa = PBXBuildFile; fileRef = B7753B9C1819893200052E51 /* GeoQueryAnnotaion.m */; };
 		B7FDB6A11817060400F434CE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FDB6A01817060400F434CE /* Storyboard.storyboard */; };
 		B7FDB6A71817083000F434CE /* NewAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FDB6A61817083000F434CE /* NewAccountViewController.m */; };
+		B7FDB6E11818992D00F434CE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FDB6E01818992D00F434CE /* MapKit.framework */; };
 		C2BA79511816DFFD00F25769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA79501816DFFD00F25769 /* Foundation.framework */; };
 		C2BA79531816DFFD00F25769 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA79521816DFFD00F25769 /* CoreGraphics.framework */; };
 		C2BA79551816DFFD00F25769 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA79541816DFFD00F25769 /* UIKit.framework */; };
@@ -47,9 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B7753B8F18189A6C00052E51 /* MasterGeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterGeoViewController.h; sourceTree = "<group>"; };
+		B7753B9018189A6C00052E51 /* MasterGeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterGeoViewController.m; sourceTree = "<group>"; };
+		B7753B921819717600052E51 /* SearchGeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchGeoViewController.h; sourceTree = "<group>"; };
+		B7753B931819717600052E51 /* SearchGeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchGeoViewController.m; sourceTree = "<group>"; };
+		B7753B95181983EF00052E51 /* GeoPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPointAnnotation.h; sourceTree = "<group>"; };
+		B7753B96181983EF00052E51 /* GeoPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoPointAnnotation.m; sourceTree = "<group>"; };
+		B7753B9B1819893200052E51 /* GeoQueryAnnotaion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeoQueryAnnotaion.h; path = ../GeoQueryAnnotaion.h; sourceTree = "<group>"; };
+		B7753B9C1819893200052E51 /* GeoQueryAnnotaion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeoQueryAnnotaion.m; path = ../GeoQueryAnnotaion.m; sourceTree = "<group>"; };
 		B7FDB6A01817060400F434CE /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		B7FDB6A51817083000F434CE /* NewAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewAccountViewController.h; path = ../NewAccountViewController.h; sourceTree = "<group>"; };
 		B7FDB6A61817083000F434CE /* NewAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewAccountViewController.m; path = ../NewAccountViewController.m; sourceTree = "<group>"; };
+		B7FDB6E01818992D00F434CE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C2BA794D1816DFFD00F25769 /* RememberMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BA79501816DFFD00F25769 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2BA79521816DFFD00F25769 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,13 +99,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FDB6E11818992D00F434CE /* MapKit.framework in Frameworks */,
+				C2BA798C1817029900F25769 /* CoreLocation.framework in Frameworks */,
 				C2BA7998181702D100F25769 /* SystemConfiguration.framework in Frameworks */,
 				C2BA7996181702CA00F25769 /* StoreKit.framework in Frameworks */,
 				C2BA7994181702BC00F25769 /* Security.framework in Frameworks */,
 				C2BA7992181702B500F25769 /* QuartzCore.framework in Frameworks */,
 				C2BA7990181702AF00F25769 /* MobileCoreServices.framework in Frameworks */,
 				C2BA798E181702A600F25769 /* libz.1.1.3.dylib in Frameworks */,
-				C2BA798C1817029900F25769 /* CoreLocation.framework in Frameworks */,
 				C2BA79531816DFFD00F25769 /* CoreGraphics.framework in Frameworks */,
 				C2BA798A1817028700F25769 /* CFNetwork.framework in Frameworks */,
 				C2BA79881817027D00F25769 /* AudioToolbox.framework in Frameworks */,
@@ -138,6 +153,7 @@
 		C2BA794F1816DFFD00F25769 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B7FDB6E01818992D00F434CE /* MapKit.framework */,
 				C2BA7997181702D100F25769 /* SystemConfiguration.framework */,
 				C2BA7995181702CA00F25769 /* StoreKit.framework */,
 				C2BA7993181702BC00F25769 /* Security.framework */,
@@ -163,6 +179,14 @@
 				C2BA79621816DFFD00F25769 /* AppDelegate.m */,
 				C2BA79611816DFFD00F25769 /* AppDelegate.h */,
 				B7FDB6A01817060400F434CE /* Storyboard.storyboard */,
+				B7753B921819717600052E51 /* SearchGeoViewController.h */,
+				B7753B931819717600052E51 /* SearchGeoViewController.m */,
+				B7753B95181983EF00052E51 /* GeoPointAnnotation.h */,
+				B7753B96181983EF00052E51 /* GeoPointAnnotation.m */,
+				B7753B9B1819893200052E51 /* GeoQueryAnnotaion.h */,
+				B7753B9C1819893200052E51 /* GeoQueryAnnotaion.m */,
+				B7753B8F18189A6C00052E51 /* MasterGeoViewController.h */,
+				B7753B9018189A6C00052E51 /* MasterGeoViewController.m */,
 				B7FDB6A51817083000F434CE /* NewAccountViewController.h */,
 				B7FDB6A61817083000F434CE /* NewAccountViewController.m */,
 				C2BA79671816DFFD00F25769 /* Images.xcassets */,
@@ -298,8 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2BA79631816DFFD00F25769 /* AppDelegate.m in Sources */,
+				B7753B97181983EF00052E51 /* GeoPointAnnotation.m in Sources */,
 				C2BA795F1816DFFD00F25769 /* main.m in Sources */,
+				B7753B941819717600052E51 /* SearchGeoViewController.m in Sources */,
 				C2BA79661816DFFD00F25769 /* RememberMe.xcdatamodeld in Sources */,
+				B7753B9118189A6C00052E51 /* MasterGeoViewController.m in Sources */,
+				B7753B9D1819893200052E51 /* GeoQueryAnnotaion.m in Sources */,
 				B7FDB6A71817083000F434CE /* NewAccountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +450,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/Hema/RememberMe/RememberMe/ParsePlatform-Geolocations-4d42caf",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RememberMe/RememberMe-Prefix.pch";
@@ -439,6 +468,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"/Users/Hema/RememberMe/RememberMe/ParsePlatform-Geolocations-4d42caf",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RememberMe/RememberMe-Prefix.pch";

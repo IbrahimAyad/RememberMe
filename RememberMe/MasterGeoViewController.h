@@ -15,8 +15,8 @@
 
 
 @property (nonatomic,retain) CLLocationManager *locationManager;
-@property (nonatomic, strong) NSDateFormatter *numberStyle;
-@property (nonatomic, strong) NSDateFormatter *maximumFractionDigits;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UITableViewCell *tableViewCell;
 
 
 - (IBAction)insertCurrentLocation:(id)sender;
