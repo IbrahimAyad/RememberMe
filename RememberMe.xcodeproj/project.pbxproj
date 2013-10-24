@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7FDB6A11817060400F434CE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FDB6A01817060400F434CE /* Storyboard.storyboard */; };
+		B7FDB6A71817083000F434CE /* NewAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FDB6A61817083000F434CE /* NewAccountViewController.m */; };
+		C2540A6E1819A35E0048EF22 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2540A6D1819A35E0048EF22 /* EditProfileViewController.m */; };
+		C2540A721819A3BF0048EF22 /* SearchGeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2540A6F1819A3BF0048EF22 /* SearchGeoViewController.m */; };
+		C2540A731819A3BF0048EF22 /* WhoIsNearMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2540A711819A3BF0048EF22 /* WhoIsNearMeViewController.m */; };
+		C2540A771819A3D50048EF22 /* SavedUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2540A751819A3D50048EF22 /* SavedUsersViewController.m */; };
+		C2540A7C1819A3FD0048EF22 /* GeoPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2540A791819A3FD0048EF22 /* GeoPointAnnotation.m */; };
+		C2540A7D1819A3FD0048EF22 /* MasterGeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2540A7B1819A3FD0048EF22 /* MasterGeoViewController.m */; };
+		C2540A851819A4A10048EF22 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2540A841819A4A10048EF22 /* MapKit.framework */; };
+		C2540A881819A7C80048EF22 /* GeoQueryAnnotaion.m in Sources */ = {isa = PBXBuildFile; fileRef = C2540A871819A7C80048EF22 /* GeoQueryAnnotaion.m */; };
+		C28466BA18187A3600320DB0 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28466B918187A3600320DB0 /* UserProfileViewController.m */; };
+		C2A56F361818311100933520 /* RememberMeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A56F351818311100933520 /* RememberMeLogo.png */; };
 		C2BA79511816DFFD00F25769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA79501816DFFD00F25769 /* Foundation.framework */; };
 		C2BA79531816DFFD00F25769 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA79521816DFFD00F25769 /* CoreGraphics.framework */; };
 		C2BA79551816DFFD00F25769 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA79541816DFFD00F25769 /* UIKit.framework */; };
@@ -22,6 +34,18 @@
 		C2BA79721816DFFD00F25769 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA79561816DFFD00F25769 /* CoreData.framework */; };
 		C2BA797A1816DFFD00F25769 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2BA79781816DFFD00F25769 /* InfoPlist.strings */; };
 		C2BA797C1816DFFD00F25769 /* RememberMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BA797B1816DFFD00F25769 /* RememberMeTests.m */; };
+		C2BA79861817018000F25769 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA79851817018000F25769 /* Parse.framework */; };
+		C2BA79881817027D00F25769 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA79871817027D00F25769 /* AudioToolbox.framework */; };
+		C2BA798A1817028700F25769 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA79891817028700F25769 /* CFNetwork.framework */; };
+		C2BA798C1817029900F25769 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA798B1817029900F25769 /* CoreLocation.framework */; };
+		C2BA798E181702A600F25769 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA798D181702A600F25769 /* libz.1.1.3.dylib */; };
+		C2BA7990181702AF00F25769 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA798F181702AF00F25769 /* MobileCoreServices.framework */; };
+		C2BA7992181702B500F25769 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA7991181702B500F25769 /* QuartzCore.framework */; };
+		C2BA7994181702BC00F25769 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA7993181702BC00F25769 /* Security.framework */; };
+		C2BA7996181702CA00F25769 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA7995181702CA00F25769 /* StoreKit.framework */; };
+		C2BA7998181702D100F25769 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BA7997181702D100F25769 /* SystemConfiguration.framework */; };
+		C2BA799A181719D000F25769 /* linkedInLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BA7999181719D000F25769 /* linkedInLogo.png */; };
+		C2ED035518171C91007E1F38 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2ED035418171C91007E1F38 /* LogInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +59,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B7FDB6A01817060400F434CE /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		B7FDB6A51817083000F434CE /* NewAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewAccountViewController.h; path = ../NewAccountViewController.h; sourceTree = "<group>"; };
+		B7FDB6A61817083000F434CE /* NewAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewAccountViewController.m; path = ../NewAccountViewController.m; sourceTree = "<group>"; };
+		C2540A6C1819A35E0048EF22 /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		C2540A6D1819A35E0048EF22 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
+		C2540A6F1819A3BF0048EF22 /* SearchGeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchGeoViewController.m; sourceTree = "<group>"; };
+		C2540A701819A3BF0048EF22 /* WhoIsNearMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhoIsNearMeViewController.h; sourceTree = "<group>"; };
+		C2540A711819A3BF0048EF22 /* WhoIsNearMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhoIsNearMeViewController.m; sourceTree = "<group>"; };
+		C2540A741819A3D50048EF22 /* SavedUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedUsersViewController.h; sourceTree = "<group>"; };
+		C2540A751819A3D50048EF22 /* SavedUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedUsersViewController.m; sourceTree = "<group>"; };
+		C2540A761819A3D50048EF22 /* SearchGeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchGeoViewController.h; sourceTree = "<group>"; };
+		C2540A781819A3FD0048EF22 /* GeoPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPointAnnotation.h; sourceTree = "<group>"; };
+		C2540A791819A3FD0048EF22 /* GeoPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoPointAnnotation.m; sourceTree = "<group>"; };
+		C2540A7A1819A3FD0048EF22 /* MasterGeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterGeoViewController.h; sourceTree = "<group>"; };
+		C2540A7B1819A3FD0048EF22 /* MasterGeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterGeoViewController.m; sourceTree = "<group>"; };
+		C2540A841819A4A10048EF22 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C2540A861819A7C80048EF22 /* GeoQueryAnnotaion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoQueryAnnotaion.h; sourceTree = "<group>"; };
+		C2540A871819A7C80048EF22 /* GeoQueryAnnotaion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoQueryAnnotaion.m; sourceTree = "<group>"; };
+		C28466B818187A3600320DB0 /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfileViewController.h; path = ../UserProfileViewController.h; sourceTree = "<group>"; };
+		C28466B918187A3600320DB0 /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfileViewController.m; path = ../UserProfileViewController.m; sourceTree = "<group>"; };
+		C2A56F351818311100933520 /* RememberMeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RememberMeLogo.png; sourceTree = "<group>"; };
 		C2BA794D1816DFFD00F25769 /* RememberMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BA79501816DFFD00F25769 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2BA79521816DFFD00F25769 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +98,19 @@
 		C2BA79771816DFFD00F25769 /* RememberMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RememberMeTests-Info.plist"; sourceTree = "<group>"; };
 		C2BA79791816DFFD00F25769 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2BA797B1816DFFD00F25769 /* RememberMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RememberMeTests.m; sourceTree = "<group>"; };
+		C2BA79851817018000F25769 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		C2BA79871817027D00F25769 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C2BA79891817028700F25769 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C2BA798B1817029900F25769 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C2BA798D181702A600F25769 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		C2BA798F181702AF00F25769 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C2BA7991181702B500F25769 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C2BA7993181702BC00F25769 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C2BA7995181702CA00F25769 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C2BA7997181702D100F25769 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C2BA7999181719D000F25769 /* linkedInLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkedInLogo.png; sourceTree = "<group>"; };
+		C2ED035318171C91007E1F38 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		C2ED035418171C91007E1F38 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +118,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2540A851819A4A10048EF22 /* MapKit.framework in Frameworks */,
+				C2BA798C1817029900F25769 /* CoreLocation.framework in Frameworks */,
+				C2BA7998181702D100F25769 /* SystemConfiguration.framework in Frameworks */,
+				C2BA7996181702CA00F25769 /* StoreKit.framework in Frameworks */,
+				C2BA7994181702BC00F25769 /* Security.framework in Frameworks */,
+				C2BA7992181702B500F25769 /* QuartzCore.framework in Frameworks */,
+				C2BA7990181702AF00F25769 /* MobileCoreServices.framework in Frameworks */,
+				C2BA798E181702A600F25769 /* libz.1.1.3.dylib in Frameworks */,
 				C2BA79531816DFFD00F25769 /* CoreGraphics.framework in Frameworks */,
+				C2BA798A1817028700F25769 /* CFNetwork.framework in Frameworks */,
+				C2BA79881817027D00F25769 /* AudioToolbox.framework in Frameworks */,
 				C2BA79571816DFFD00F25769 /* CoreData.framework in Frameworks */,
 				C2BA79551816DFFD00F25769 /* UIKit.framework in Frameworks */,
 				C2BA79511816DFFD00F25769 /* Foundation.framework in Frameworks */,
+				C2BA79861817018000F25769 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +172,17 @@
 		C2BA794F1816DFFD00F25769 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2540A841819A4A10048EF22 /* MapKit.framework */,
+				C2BA7997181702D100F25769 /* SystemConfiguration.framework */,
+				C2BA7995181702CA00F25769 /* StoreKit.framework */,
+				C2BA7993181702BC00F25769 /* Security.framework */,
+				C2BA7991181702B500F25769 /* QuartzCore.framework */,
+				C2BA798F181702AF00F25769 /* MobileCoreServices.framework */,
+				C2BA798D181702A600F25769 /* libz.1.1.3.dylib */,
+				C2BA798B1817029900F25769 /* CoreLocation.framework */,
+				C2BA79891817028700F25769 /* CFNetwork.framework */,
+				C2BA79871817027D00F25769 /* AudioToolbox.framework */,
+				C2BA79851817018000F25769 /* Parse.framework */,
 				C2BA79501816DFFD00F25769 /* Foundation.framework */,
 				C2BA79521816DFFD00F25769 /* CoreGraphics.framework */,
 				C2BA79541816DFFD00F25769 /* UIKit.framework */,
@@ -115,8 +195,30 @@
 		C2BA79581816DFFD00F25769 /* RememberMe */ = {
 			isa = PBXGroup;
 			children = (
-				C2BA79611816DFFD00F25769 /* AppDelegate.h */,
+				C2ED035218171BB2007E1F38 /* Pictures */,
 				C2BA79621816DFFD00F25769 /* AppDelegate.m */,
+				C2BA79611816DFFD00F25769 /* AppDelegate.h */,
+				C2540A6D1819A35E0048EF22 /* EditProfileViewController.m */,
+				C28466B818187A3600320DB0 /* UserProfileViewController.h */,
+				C28466B918187A3600320DB0 /* UserProfileViewController.m */,
+				B7FDB6A01817060400F434CE /* Storyboard.storyboard */,
+				C2540A6C1819A35E0048EF22 /* EditProfileViewController.h */,
+				C2540A781819A3FD0048EF22 /* GeoPointAnnotation.h */,
+				C2540A791819A3FD0048EF22 /* GeoPointAnnotation.m */,
+				C2540A861819A7C80048EF22 /* GeoQueryAnnotaion.h */,
+				C2540A871819A7C80048EF22 /* GeoQueryAnnotaion.m */,
+				C2540A7A1819A3FD0048EF22 /* MasterGeoViewController.h */,
+				C2540A7B1819A3FD0048EF22 /* MasterGeoViewController.m */,
+				C2ED035318171C91007E1F38 /* LogInViewController.h */,
+				C2ED035418171C91007E1F38 /* LogInViewController.m */,
+				B7FDB6A51817083000F434CE /* NewAccountViewController.h */,
+				B7FDB6A61817083000F434CE /* NewAccountViewController.m */,
+				C2540A6F1819A3BF0048EF22 /* SearchGeoViewController.m */,
+				C2540A761819A3D50048EF22 /* SearchGeoViewController.h */,
+				C2540A741819A3D50048EF22 /* SavedUsersViewController.h */,
+				C2540A751819A3D50048EF22 /* SavedUsersViewController.m */,
+				C2540A701819A3BF0048EF22 /* WhoIsNearMeViewController.h */,
+				C2540A711819A3BF0048EF22 /* WhoIsNearMeViewController.m */,
 				C2BA79671816DFFD00F25769 /* Images.xcassets */,
 				C2BA79641816DFFD00F25769 /* RememberMe.xcdatamodeld */,
 				C2BA79591816DFFD00F25769 /* Supporting Files */,
@@ -151,6 +253,15 @@
 				C2BA79781816DFFD00F25769 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2ED035218171BB2007E1F38 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				C2A56F351818311100933520 /* RememberMeLogo.png */,
+				C2BA7999181719D000F25769 /* linkedInLogo.png */,
+			);
+			name = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +339,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2A56F361818311100933520 /* RememberMeLogo.png in Resources */,
 				C2BA795D1816DFFD00F25769 /* InfoPlist.strings in Resources */,
 				C2BA79681816DFFD00F25769 /* Images.xcassets in Resources */,
+				C2BA799A181719D000F25769 /* linkedInLogo.png in Resources */,
+				B7FDB6A11817060400F434CE /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +363,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2BA79631816DFFD00F25769 /* AppDelegate.m in Sources */,
+				C2540A731819A3BF0048EF22 /* WhoIsNearMeViewController.m in Sources */,
+				C2540A7C1819A3FD0048EF22 /* GeoPointAnnotation.m in Sources */,
 				C2BA795F1816DFFD00F25769 /* main.m in Sources */,
+				C2540A6E1819A35E0048EF22 /* EditProfileViewController.m in Sources */,
+				C2ED035518171C91007E1F38 /* LogInViewController.m in Sources */,
+				C2540A881819A7C80048EF22 /* GeoQueryAnnotaion.m in Sources */,
+				C2540A7D1819A3FD0048EF22 /* MasterGeoViewController.m in Sources */,
+				C2540A721819A3BF0048EF22 /* SearchGeoViewController.m in Sources */,
 				C2BA79661816DFFD00F25769 /* RememberMe.xcdatamodeld in Sources */,
+				C28466BA18187A3600320DB0 /* UserProfileViewController.m in Sources */,
+				B7FDB6A71817083000F434CE /* NewAccountViewController.m in Sources */,
+				C2540A771819A3D50048EF22 /* SavedUsersViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +493,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RememberMe/RememberMe-Prefix.pch";
 				INFOPLIST_FILE = "RememberMe/RememberMe-Info.plist";
@@ -382,6 +510,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RememberMe/RememberMe-Prefix.pch";
 				INFOPLIST_FILE = "RememberMe/RememberMe-Info.plist";
@@ -451,6 +583,7 @@
 				C2BA79811816DFFD00F25769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2BA79821816DFFD00F25769 /* Build configuration list for PBXNativeTarget "RememberMeTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +592,7 @@
 				C2BA79841816DFFD00F25769 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LogInViewController.h"
 
 @implementation AppDelegate
 
@@ -16,10 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    //Adding the Parse applicationID and my clientKey to the project
+    [Parse setApplicationId:@"ED4yaoShOk3m0S9XJaWrH7Pjk6n1Ovc3T0SHZpC8"
+                  clientKey:@"2jNQHPyl1qz9XzOKL8bDPAwjURHValxN6tSFVLDb"];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    PFUser *user = [PFUser currentUser];
+    [user refreshInBackgroundWithBlock:^(PFObject *object, NSError *error) {
+        
+    }];
+    
     return YES;
 }
 
